@@ -1,0 +1,24 @@
+2026-02-27 04:58:36 WARN  TestNGContentHandler:133 -
+			It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\vinay\eclipse-workspace-jan2025\OpencartV121\master3.xml] otherwise TestNG may fail or not work as expected.
+2026-02-27 04:59:01 INFO  TC001_AccountRegistrationTest:15 -
+			***** Starting TC001_AccountRegistrationTest  ****
+2026-02-27 04:59:01 INFO  TC001_AccountRegistrationTest:21 -
+			Clicked on MyAccount Link.. 
+2026-02-27 04:59:02 INFO  TC001_AccountRegistrationTest:24 -
+			Clicked on Register Link.. 
+2026-02-27 04:59:02 INFO  TC001_AccountRegistrationTest:28 -
+			Providing customer details...
+2026-02-27 04:59:04 INFO  TC001_AccountRegistrationTest:42 -
+			Validating expected message..
+2026-02-27 04:59:04 INFO  TC001_AccountRegistrationTest:47 -
+			Test passed
+2026-02-27 04:59:04 INFO  TC001_AccountRegistrationTest:56 -
+			***** Finished TC001_AccountRegistrationTest *****
+2026-02-27 04:59:07 INFO  TC_002_LoginTest:16 -
+			**** Starting TC_002_LoginTest ****
+2026-02-27 04:59:07 INFO  TC_002_LoginTest:22 -
+			Clicked on My Account
+2026-02-27 04:59:08 INFO  TC_002_LoginTest:25 -
+			Clicked on Login
+2026-02-27 04:59:08 INFO  TC_002_LoginTest:29 -
+			Entering login credentials
