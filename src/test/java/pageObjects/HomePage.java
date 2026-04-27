@@ -11,7 +11,9 @@ public class HomePage extends BasePage {
         super(driver);
     }
     
-    @FindBy(xpath="//span[normalize-space()='My Account']")
+    //a[@title='My Account']
+    //@FindBy(xpath="//span[normalize-space()='My Account']")
+    @FindBy(xpath="//a[@title='My Account']")
     WebElement lnkMyaccount;
 
     @FindBy(xpath="//a[normalize-space()='Register']")
