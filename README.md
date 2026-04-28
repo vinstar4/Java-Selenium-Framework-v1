@@ -16,7 +16,7 @@ src/test/java
  ├── utilities        → Excel, DataProviders, Reports
 
 src/test/resources
- └── resources        → config.properties, log4j2.xml
+ └── contains resources like       → config.properties, log4j2.xml
 
 logs/
 reports/              → Extent Reports
