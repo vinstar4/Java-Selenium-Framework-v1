@@ -8,7 +8,7 @@ A Selenium framework using Page Object Model (POM) with TestNG, Maven, Excel-dri
 
 ## Structure
 
-```text
+```text id="y7sq3v"
 src/test/java
  ├── pageObjects      → Page classes + BasePage
  ├── testBase         → BaseClass (setup/teardown)
@@ -17,6 +17,7 @@ src/test/java
  └── resources        → config.properties, log4j2.xml
 
 logs/
+reports/              → Extent Reports
 pom.xml
 master3.xml
 ```
@@ -29,7 +30,7 @@ master3.xml
 * PageObjects → UI actions (extend BasePage)
 * BaseClass → setup (@BeforeClass), teardown (@AfterClass)
 * TestCases → test logic and assertions
-* Utilities → Excel data, DataProvider, reporting
+* Utilities → Excel data, DataProvider, Extent Reports
 * Resources → configuration and logging
 
 ---
@@ -48,7 +49,7 @@ master3.xml
 
 Using Maven:
 
-```bash
+```bash id="qif0kr"
 mvn test
 ```
 
@@ -59,7 +60,8 @@ Run `master3.xml`
 
 ## Flow
 
-```text
+```text id="ehfc47"
 pom.xml → master3.xml → BaseClass → TestCases → PageObjects → Assertions
 ```
 
+---
