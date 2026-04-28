@@ -14,6 +14,8 @@ src/test/java
  ├── testBase         → BaseClass (setup/teardown)
  ├── testCases        → Test scripts
  ├── utilities        → Excel, DataProviders, Reports
+
+src/test/resources
  └── resources        → config.properties, log4j2.xml
 
 logs/
